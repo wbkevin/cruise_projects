@@ -1,0 +1,13 @@
+syntax="proto3";
+
+package net;
+
+enum MSG{
+	HEADER = 0X00000000;
+	HEADER1 = 0X00000001;
+}
+
+message MsgHeader
+{
+	int32 cmd = 1;
+}
