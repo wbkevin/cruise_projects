@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/crStringToken.h
+string
+-
+vector
+-
+
+../../include/crThread.h
+thread
+-
+
+/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/src/crStringToken.cpp
+crStringToken.h
+/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/src/crStringToken.h
+string.h
+-
+
+/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/src/crThread.cpp
+crThread.h
+/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/src/crThread.h
+
+/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/test_crData/test.cpp
+iostream
+-
+crStringToken.h
+/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/test_crData/crStringToken.h
+crThread.h
+/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/test_crData/crThread.h
+

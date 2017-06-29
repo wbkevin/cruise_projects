@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="crData"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\crData\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crData">
+				<Option output="/Users/wubo/Documents/cruise_projects/cpp/crFramework/bin/libcrData.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 crData"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crData/fast">
+				<Option output="/Users/wubo/Documents/cruise_projects/cpp/crFramework/bin/libcrData.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 crData/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wubo/Documents/cruise_projects/cpp/crFramework/cmake-build-debug/crData/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/src/crStringToken.cpp">
+			<Option target="crData"/>
+		</Unit>
+		<Unit filename="/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/src/crThread.cpp">
+			<Option target="crData"/>
+		</Unit>
+		<Unit filename="/Users/wubo/Documents/cruise_projects/cpp/crFramework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\crData\"/>
+		</Unit>
+		<Unit filename="/Users/wubo/Documents/cruise_projects/cpp/crFramework/crData/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\crData\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
